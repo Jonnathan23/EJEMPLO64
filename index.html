@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos Personales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>FORMULARIO PARA RECOPILACION DE DATOS PERSONALES</h2>
+    <div class="container">
+        <h2>Ingrese sus datos</h2>
+        <form id="personal-info-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="age">Edad:</label>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <label for="gender">Género:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Seleccione</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+   
+
+    <script src="script.js"></script>
+    <footer>
+        <p>Autor: Irar Nankamai</p>
+        <p>Autor: Erika</p>
+        <p>Autor: Jonnathan</p>
+        <p>Contacto: trabajoengrupo@gmail.com</p>
+    </footer>
+</body>
+
+</html>
